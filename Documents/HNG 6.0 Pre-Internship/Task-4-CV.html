@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title>New Resume</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat|Sanchez&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+        <script type="text/javascript">
+
+            function validation(){
+                var name = document.getElementById("text").value;
+                var email = document.getElementById("email").value;
+                var title = document.getElementById("title").value;
+                var message = document.getElementById("message").value;
+                var error_message = document.getElementById("error_message");
+                var text;
+            
+                error_message.style.padding = "12px";
+            
+                if(name.length < 4){
+                    text = "Please enter valid name";
+                    error_message.innerHTML = text;
+                    return false;
+                }
+                if(message.length < 20){
+                    text = "Please enter more characters to your message";
+                    error_message.innerHTML = text;
+                    return false;
+                }
+                if(message.length < 2){
+                    text = "Please enter more characters to your title";
+                    error_message.innerHTML = text;
+                    return false;
+                }
+                if(email.indexOf("@") == -1 || email.length < 2){
+                    text = "Please enter valid Email";
+                    error_message.innerHTML = text;
+                    return false;
+                }
+                alert("Thank you for getting in touch! We appreciate you contacting us.");
+            }
+            </script>
+
+    <div class="container">
+        <div class="header">
+            <img class="img"src="https://res.cloudinary.com/iyke4life/image/upload/v1566518505/IMG_20180325_155109_710_hr8dw1.jpg" alt="profile-image">
+            <div class="title-holder">
+                <div class="name">Ikechukwu Okonkwo</div>
+                <div class="what-i-do">Frontend Developer & UI/UX Designer</div>
+            </div>
+        </div> <!--End header-->
+        <div class="content-body">
+            <div class="section-left">
+                <div class="wrapper">
+                    <div class="list-items">
+                        <h2>Professional Skills</h2>
+                        <table cellpadding="2">
+                                <tr>
+                                    <td>HTML</td>
+                                    <td>⭐⭐⭐⭐⭐</td>
+                                </tr>
+                                <tr>
+                                    <td>CSS</td>
+                                    <td>⭐⭐⭐⭐</td>
+                                </tr>
+                                <tr>
+                                        <td>FIGMA</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                    </tr>
+                                <tr>
+                                        <td>PHOTOSHOP</td>
+                                        <td>⭐⭐⭐</td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td>PYTHON</td>
+                                        <td>⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                            <td>JAVASCRIPT</td>
+                                            <td>⭐⭐</td>
+                                        </tr>
+                                    <tr>
+                                        <td>FLUTTERWAVE</td>
+                                        <td>⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td>C#</td>
+                                        <td>⭐</td>
+                                    </tr>
+                            </table>
+                    </div><hr>
+                    <div class="list-items">
+                        <h2>Personal Skills</h2>
+                        <ul>
+                            <li>CREATIVITY</li>
+                            <li>TEAM-WORK</li>
+                            <li>FOCUSED</li>
+                            <li>GOAL-ORIENTED</li>
+                            <li>CUROSITY</li>
+                        </ul>
+                    </div><hr>
+                    <div class="list-items">
+                        <h2>Contact</h2>
+                        <ul>
+                            <p><i class="fa fa-phone"></i>+234 814-1528-253</p>
+                            <li><i class="fa fa-map-marker"></i>Rumukwurshi, Port Harcourt, Rivers State</li>
+                            <li><i class="fa fa-envelope"></i><a href="http://oikechukwu11@gmail.com/"target="_blank">oikechukwu11@gmail.com</a></li>
+                        </ul>
+                    </div><hr>
+                    <div class="list-items">
+                            <h2>Socials</h2>
+                            <p>
+                                <i class="fa fa-linkedin"></i>
+                                <span><a href="https://linkedin.com/">iyke4life</a></span><!--LinkedIn-->
+                            </p>
+                            <p>
+                                <i class="fa fa-github"></i>
+                                <span><a href="https://github.com/iyke4life">iyke4life</a></span><!--GitHub-->
+                            </p>
+                            <p>
+                                <i class="fa fa-facebook"></i>
+                                <span><a href="https://facebook.com/">iyke4life</a></span><!--Facebook-->
+                            </p>
+                            <p>
+                                <i class="fa fa-twitter"></i>
+                                <span><a href="https://twitter.com/">iyke4life</a></span><!--Twitter-->
+                            </p>
+                            <p>
+                                <i class="fa fa-instagram"></i>
+                                <span><a href="https://instagram.com/">iyke4life</a></span><!--Instagram-->
+                            </p>
+                        </div>
+                </div> <!--End wrapper-->
+            </div> <!--End section-left-->
+
+            <div class="section-right">
+                <div class="wrapper">
+                    <div class="content">
+                        <h2>About Me</h2>
+                        <p>An individual eager to learn and develop in that which can coach, mentor and develop my personality while bringing valuable perspectives or expertise to the company’s continuous progress.</p>
+                    </div>
+                    <div class="content">
+                        <h2>Work Experience</h2>
+                        <p><strong>JoeTech</strong>, Imo State - <i>Electrical/Electronic Technician.</i></p>
+		                <p>AUGUST 2016 - DECEMBER 2016</p>
+
+		                <p><strong>Private Tutor</strong>, Enugu State — <i>Coach lower level students on Mathematics and Physics.</i></p>
+		                <p>SEPTEMBER 2017 - MAY 2019</p>
+
+		                <p><strong>Industrial Training</strong>, Rivers State — <i>Currently on internship at Afam Power Plant.</i></p>
+		                <p>JUNE 2019 - NOVEMBER 2019</p>
+                    </div>
+                    <div class="education">
+                        <h2>Education</h2>
+                        <p><strong>University of Nigeria, Nsukka</strong>, Enugu State - <i>B.ENG(IN VIEW).</i></p>
+			            <p>NOVEMBER 2015 - NOVEMBER 2020</p>
+
+			            <p><strong>His Grace High School</strong>, Enugu State — <i>West African School Certificate.</i></p>
+			            <p>SEPTEMBER 2009 - SEPTEMBER 2015</p>
+                    </div>
+                    <div class="contact-me">
+                        <h2>Contact Me</h2>
+                        <div id="error_message"></div>
+                        <form id="myform" onsubmit="return validation()">
+                            <input  type="text" placeholder="Your name" name="text" id="text" >
+                            <input  type="email" placeholder="Email" name="email" id="email">
+                            <input  type="text" placeholder="Title" name="title" id="title">
+                            <textarea id="message" placeholder="Your message here..." ></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div> <!--End section-right-->
+        </div>
+        <div class="footer">
+            <p>&copy IYKE4LIFE 2019</p>
+        </div>
+    </div>
+</body>
+
+<style>
+body{
+    background-color: #fff;
+    margin: 1em auto;
+    max-width: 90em;
+    font-family: 'Righteous', cursive; 
+}
+.p, ul{
+    letter-spacing: .2em;
+}
+:root{
+    --yellowish: #eeb14f;
+    --dark-purple: #263547;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    border-top:2px solid black;
+    width: 100%;
+}
+.header{
+    text-align: center;
+    background-color: var(--dark-purple);
+    height: 80px;
+    position: relative;
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    outline: none;
+    right: 10px;
+    position: relative;
+    padding-top: 5px;
+}
+.title-holder{
+    align-items: center;
+    display: inline-block;
+}
+.name{
+    color: var(--yellowish);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+.what-i-do{
+    color: white;
+    text-transform: uppercase;
+}
+.content-body{
+    display: flex;
+    flex-direction: row;
+}
+.wrapper{
+    margin: 20px;
+}
+.section-left{
+    flex: 1;
+    background-color: var(--yellowish);
+}
+.section-left ul{
+    list-style: none;
+    margin-left: -40px;
+    text-transform: capitalize;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: normal;
+}
+.list-items a{
+    text-decoration: none;
+    color:black;
+}
+.section-right{
+    flex: 2;
+}
+.section-right .wrapper{
+    margin-left: 50px;
+}
+.section-right ul{ 
+    margin-left: -20px;
+}
+.section-right h2{
+    color: var(--yellowish);
+    font-weight: bold;
+} 
+.footer{
+    text-align: center;
+    background-color: var(--dark-purple);
+    height: 50px;
+}  
+#myform{
+    margin: 5px auto;
+    width: 250px;
+    color: steelblue;
+    float: left;
+}
+.contact-me #error_message{
+    padding: 0px; 
+    width: 250px;
+    background: #FE8B8E;
+    font-size: 13px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    background: #FAF6D9;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+}
+textarea{
+    margin-bottom: 5px;
+    height: 60px;
+    width: 105%;
+    background: #FAF6D9;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+}
+input[type="email"]{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    background: #FAF6D9;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    margin-bottom: 5px;
+    width: 270px;
+    background: white;
+    border: 2px solid steelblue;
+    border-radius: 10px;
+    color: steelblue;
+    align-items: center;
+    cursor: pointer;
+}
+input:focus{
+    background:white;
+}
+</style>
+
+</html>
